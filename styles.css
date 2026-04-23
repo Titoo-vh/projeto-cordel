@@ -1,0 +1,84 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font-size: 1em;
+}
+
+:root{
+    --fonte1: Verdana, sans-serif;
+    --fonte2: 'Passion One', cursive;
+    --fonte3: 'Sriracha', cursve;
+}
+
+html, body{
+    background-color: rgb(190, 190, 190);
+    font-family: var(--fonte1);
+}
+h1{
+    font-size: 8vw;
+    font-family: var(--fonte2);
+}
+h3{ 
+    font-size: 2.5vw;
+}
+header{
+    padding: 50px;
+    background-color: black;
+    text-align: center;
+    text-decoration: white;
+    font-variant-position: initial;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+    
+}
+a:hover{
+    text-decoration: underline;
+}
+section{
+    padding-bottom: 10vh;
+    padding-top: 10vh;
+    padding-left: 20px;
+    line-height: 2em;
+    font-family: var(--fonte3);
+    font-size: 3.5vw;
+    background-size: cover;
+    background-attachment: fixed;
+}
+section.branco{
+    background-color: white
+}
+
+section.preto{
+    box-shadow: inset 6px 6px 10px 0px rgba(0, 0, 0, 0.45);
+    background-color: grey;
+    color: white;
+}
+section.preto > p {
+    background-color: rgba(0, 0, 0, 0.400);
+    display: inline-block;
+    padding: 6px;
+}
+
+section#img01{
+    background-image: url(../de12/imagens/back01.jpg);
+    background-position: right center;
+    text-shadow: 1px 1px 0px black;
+}
+
+section#img02{
+    background-image: url(../de12/imagens/bck02.jpg);
+    background-position: right bottom;
+    text-shadow: 1px 1px 0px black;
+}
+
+footer{
+    padding: 12px;
+    background-color: black;
+    text-align: center;
+    text-decoration: white;
+    color: white;
+}
