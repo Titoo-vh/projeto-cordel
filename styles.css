@@ -18,6 +18,7 @@ html, body{
 h1{
     font-size: 8vw;
     font-family: var(--fonte2);
+    font-weight: lighter;
 }
 h3{ 
     font-size: 2.5vw;
@@ -31,13 +32,16 @@ header{
     color: white;
 }
 a{
-    text-decoration: none;
+    text-decoration: underline;
     color: white;
     
 }
 a:hover{
-    text-decoration: underline;
+    color: darkgoldenrod;
+     text-decoration: none;
+
 }
+
 section{
     padding-bottom: 10vh;
     padding-top: 10vh;
@@ -64,13 +68,13 @@ section.preto > p {
 }
 
 section#img01{
-    background-image: url(../de12/imagens/back01.jpg);
+    background-image: url(imagens/back01.jpg);
     background-position: right center;
     text-shadow: 1px 1px 0px black;
 }
 
 section#img02{
-    background-image: url(../de12/imagens/bck02.jpg);
+    background-image: url(imagens/bck02.jpg);
     background-position: right bottom;
     text-shadow: 1px 1px 0px black;
 }
